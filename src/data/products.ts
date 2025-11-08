@@ -103,7 +103,7 @@ export const products: Product[] = [
   },
   {
     id: '11',
-    name: 'Organic Oats',
+    name: 'Organic Oats for marketing sale',
     price: 6.99,
     category: 'grains',
     image: 'https://images.pexels.com/photos/6801648/pexels-photo-6801648.jpeg?auto=compress&cs=tinysrgb&w=800',
