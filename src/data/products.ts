@@ -106,7 +106,7 @@ export const products: Product[] = [
     name: 'Organic Oats',
     price: 6.99,
     category: 'grains',
-    image: 'https://images.pexels.com/photos/6801648/pexels-photo-6801648.jpeg?auto=compress&cs=tinysrgb&w=800',
+    image: 'https://www.google.com/url?sa=i&url=https%3A%2F%2Fsatopradhan.com%2Fproducts%2Forganic-rolled-oats%3Fsrsltid%3DAfmBOoqoXoYQLqzm44xBOV-lNxyxxPBkQ-JlAuYLIsjjTbbTS4IYXn62&psig=AOvVaw2clHl3AcgVw9md5845pkXr&ust=1762653716119000&source=images&cd=vfe&opi=89978449&ved=0CBUQjRxqFwoTCNiP9va64ZADFQAAAAAdAAAAABAE',
     unit: 'per 2 lb bag',
     description: 'Steel-cut organic oats',
     organic: true,
