@@ -103,12 +103,12 @@ export const products: Product[] = [
   },
   {
     id: '11',
-    name: 'Organic Oats for marketing sale',
+    name: 'Organic butter',
     price: 6.99,
     category: 'grains',
-    image: 'https://images.pexels.com/photos/6801648/pexels-photo-6801648.jpeg?auto=compress&cs=tinysrgb&w=800',
+    image: 'https://c8.alamy.com/comp/2A9WBAW/a-stick-of-organic-unsalted-butter-isolated-on-a-white-background-cutout-image-for-illustration-and-editorial-use-2A9WBAW.jpg',
     unit: 'per 2 lb bag',
-    description: 'Steel-cut organic oats',
+    description: 'Steel-cut organic butter',
     organic: true,
   },
   {
@@ -151,14 +151,15 @@ export const products: Product[] = [
     description: 'Aged organic cheddar cheese',
     organic: true,
   },
+  
   {
-    id: '16',
-    name: 'Organic Butter',
-    price: 7.49,
+    id: '17',
+    name: 'Organic Eggs',
+    price: 5.99,
     category: 'dairy',
-    image: 'https://images.pexels.com/photos/4443425/pexels-photo-4443425.jpeg?auto=compress&cs=tinysrgb&w=800',
-    unit: 'per lb',
-    description: 'Grass-fed organic butter',
+    image: 'https://images.pexels.com/photos/162712/egg-white-food-protein-162712.jpeg?auto=compress&cs=tinysrgb&w=800',
+    unit: 'per dozen',
+    description: 'Farm-fresh organic free-range eggs',
     organic: true,
   },
 ];

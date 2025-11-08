@@ -4,6 +4,7 @@ import Hero from './components/Hero';
 import ProductGrid from './components/ProductGrid';
 import Cart from './components/Cart';
 import Contact from './components/Contact';
+import About from './components/About';
 import Footer from './components/Footer';
 import { Product, CartItem } from './types';
 import { products } from './data/products';
@@ -12,7 +13,7 @@ function App() {
   const [cartItems, setCartItems] = useState<CartItem[]>([]);
   const [isCartOpen, setIsCartOpen] = useState(false);
   const [selectedCategory, setSelectedCategory] = useState<string>('all');
-  const [currentView, setCurrentView] = useState<'home' | 'contact'>('home');
+  const [currentView, setCurrentView] = useState<'home' | 'about' | 'contact'>('home');
 
   const addToCart = (product: Product) => {
     setCartItems(prevItems => {
@@ -71,6 +72,8 @@ function App() {
             onAddToCart={addToCart}
           />
         </>
+      ) : currentView === 'about' ? (
+        <About />
       ) : (
         <Contact />
       )}
