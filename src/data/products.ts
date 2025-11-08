@@ -104,7 +104,7 @@ export const products: Product[] = [
   {
     id: '11',
     name: 'Organic Oats',
-    price: 5.99,
+    price: 6.99,
     category: 'grains',
     image: 'organic oats.webp',
     unit: 'per 2 lb bag',
