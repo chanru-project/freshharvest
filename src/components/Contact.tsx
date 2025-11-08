@@ -57,7 +57,7 @@ export default function Contact() {
               </div>
               <div>
                 <h3 className="font-semibold text-gray-900 mb-1">Call Us</h3>
-                <p className="text-gray-600">+1 (555) 123-4567</p>
+                <p className="text-gray-600">9342886508</p>
                 <p className="text-sm text-gray-500 mt-1">
                   Mon-Fri: 8am - 8pm EST
                 </p>
@@ -72,8 +72,7 @@ export default function Contact() {
               </div>
               <div>
                 <h3 className="font-semibold text-gray-900 mb-1">Visit Us</h3>
-                <p className="text-gray-600">123 Organic Farm Lane</p>
-                <p className="text-gray-600">Green Valley, CA 94000</p>
+                <p className="text-gray-600">123 coimbatore, Tamil Nadu</p>
               </div>
             </div>
           </div>
